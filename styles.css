@@ -1,1 +1,46 @@
-body {background:blue}
+// body {background:blue}
+
+#tittle1 {
+	padding: 3px;
+	border-style:  solid;
+	border-width: 5px;
+text-align: center;
+
+}
+
+ img {
+	margin-top: 50px;
+	display: center;
+	/* align: center;*/
+
+    }
+
+p{
+	background-image: url("https://image.freepik.com/free-vector/modern-abstract-background_1048-1003.jpg");
+ }
+
+li {
+	font-family: cursive;
+}
+
+h1, h2, h3 { 
+	font: bold 20px arial, sans-serif;
+	text-transform: uppercase;
+}
+
+a{
+	color:green;
+}
+
+a:hover {
+    color:hotpink;
+}
+
+.backround_text {  background-color: yellow;}
+
+
+@media screen and (max-width: 494px) {
+  h1, p, blockquote, a {
+    font-size: small;
+  }
+}
